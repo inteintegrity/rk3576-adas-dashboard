@@ -1,0 +1,5 @@
+# PC-only export/reference tools; never required for board inference.
+ultralytics==8.4.96
+torch>=2.2
+onnx>=1.16
+onnxruntime>=1.19

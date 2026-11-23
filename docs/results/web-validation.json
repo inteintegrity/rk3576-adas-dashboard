@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "job_id": "cd048d9c571a47f9a17027048b60077c",
+  "preview_checks": 125,
+  "checks": [
+    "health",
+    "HTML/CSS/JS",
+    "invalid extension 415",
+    "invalid MP4 422",
+    "original MP4 upload",
+    "concurrent job rejection 409",
+    "unfinished artifact rejection 409",
+    "real JPEG progress",
+    "729 real NPU frames",
+    "video range 206",
+    "MP4 attachment download",
+    "JSON report",
+    "729-line trace"
+  ],
+  "source_sha256": "8647031ecef1e838542e318c6220443d2e2263cb075821011a5b5e0bccf27f37",
+  "download_bytes": 6961527,
+  "download_sha256": "96fae59d51805fc4c85eede515be54ea84997804654ba4a22d8bb3f5ff99f82d",
+  "summary": {
+    "source": "/home/seeed/rk3576-adas-dashboard/outputs/cd048d9c571a47f9a17027048b60077c/input.mp4",
+    "backend": "rknn",
+    "frames": 729,
+    "source_frames": 729,
+    "source_fps": 25.0,
+    "width": 1280,
+    "height": 720,
+    "elapsed_s": 253.1924665009999,
+    "processing_fps": 2.879232585686435,
+    "npu_fps": 16.850896789673918,
+    "inference_mean_ms": 59.34402260494475,
+    "inference_median_ms": 58.100617000036436,
+    "warmup_ms": [
+      84.15552299993578,
+      94.72557200001575,
+      52.722247000019706,
+      47.70769400010977,
+      57.16091900012543
+    ],
+    "ldw_frames": 31,
+    "fcw_frames": 18,
+    "vehicle_detections": 2554,
+    "frames_with_lanes": 719,
+    "timing": "NPU FPS = frames / sum of synchronous RKNNLite.inference wall time; includes API transfers. Processing FPS includes decode, preprocessing, inference, lanes, drawing, trace and H.264 finalization; excludes initialization and warmup. Video overlay/live progress is cumulative before finalization. Playback keeps source FPS; audio omitted."
+  }
+}

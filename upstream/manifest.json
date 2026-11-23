@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/Kiya-rb/vision-based-adas-dashboard",
+  "commit": "58e6f31f5e4cc8c7b1c838920d9da454e2c11627",
+  "files": {
+    "LICENSE": {
+      "bytes": 1080,
+      "git_blob_sha1": "38f0fbdba22f4816cd44997e66688bd4b7fbca15",
+      "sha256": "090e4b44a1b0e15a3ad0720e9a4d28d842a7885db4c20694bfb69389c17b77e3"
+    },
+    "README.md": {
+      "bytes": 6699,
+      "git_blob_sha1": "96dd2b1c8ff3f00e28507daf8737162f6d8b858e",
+      "sha256": "a2d1e62c15f711991b81db4b1d84b484a2db22658d7166baca3abd2433be13a8"
+    },
+    "src/project.py": {
+      "bytes": 7634,
+      "git_blob_sha1": "2f3973b398c963d9d4cb5e7e07de4220368c43b1",
+      "sha256": "cb6b14ccd2c548119cf77890162f42cd729e320b5418ff486c6a1cc85505b37e"
+    },
+    "notebook/FinalProject.ipynb": {
+      "bytes": 10940489,
+      "git_blob_sha1": "475bc898ec33904fe741b46e634ec71107c7f757",
+      "sha256": "90e7c3a56a1d07e7f286222a5d9fb853507d7b7adb383ba60d5bbb1fbe45f63f"
+    },
+    "data/roads/video1-720p.mp4": {
+      "bytes": 3181322,
+      "git_blob_sha1": "041a0847acc18ca3581c5d3dde5de663b5898820",
+      "sha256": "8647031ecef1e838542e318c6220443d2e2263cb075821011a5b5e0bccf27f37"
+    }
+  },
+  "weights": {
+    "path": "models/yolov8n.pt",
+    "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+    "source": "Existing local official COCO YOLOv8n pretrained checkpoint; no training"
+  }
+}

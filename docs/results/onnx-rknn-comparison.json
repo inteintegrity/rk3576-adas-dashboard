@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "minimum_iou": 0.9599354181931469,
+  "max_score_error": 0.02977806329727173,
+  "frames": [
+    {
+      "frame": 0,
+      "reference_count": 4,
+      "actual_count": 4,
+      "matches": [
+        {
+          "iou": 0.998182404955986,
+          "matched": true,
+          "score_error": 1.0132789611816406e-05
+        },
+        {
+          "iou": 0.992788190674222,
+          "matched": true,
+          "score_error": 0.007879972457885742
+        },
+        {
+          "iou": 0.9917053964357715,
+          "matched": true,
+          "score_error": 0.016481995582580566
+        },
+        {
+          "iou": 0.9947477862844452,
+          "matched": true,
+          "score_error": 0.023496031761169434
+        }
+      ]
+    },
+    {
+      "frame": 125,
+      "reference_count": 4,
+      "actual_count": 4,
+      "matches": [
+        {
+          "iou": 0.9975309839588502,
+          "matched": true,
+          "score_error": 0.0006376504898071289
+        },
+        {
+          "iou": 0.9913397418215271,
+          "matched": true,
+          "score_error": 0.014800667762756348
+        },
+        {
+          "iou": 0.9974737513054136,
+          "matched": true,
+          "score_error": 0.021447360515594482
+        },
+        {
+          "iou": 0.9941451136806688,
+          "matched": true,
+          "score_error": 0.02916872501373291
+        }
+      ]
+    },
+    {
+      "frame": 250,
+      "reference_count": 3,
+      "actual_count": 3,
+      "matches": [
+        {
+          "iou": 0.9974122395250884,
+          "matched": true,
+          "score_error": 9.107589721679688e-05
+        },
+        {
+          "iou": 0.9918142952287946,
+          "matched": true,
+          "score_error": 0.005336284637451172
+        },
+        {
+          "iou": 0.9884086154403643,
+          "matched": true,
+          "score_error": 0.013077020645141602
+        }
+      ]
+    },
+    {
+      "frame": 375,
+      "reference_count": 2,
+      "actual_count": 2,
+      "matches": [
+        {
+          "iou": 0.9881012686763994,
+          "matched": true,
+          "score_error": 0.010879456996917725
+        },
+        {
+          "iou": 0.9929496055765092,
+          "matched": true,
+          "score_error": 0.007989346981048584
+        }
+      ]
+    },
+    {
+      "frame": 500,
+      "reference_count": 3,
+      "actual_count": 3,
+      "matches": [
+        {
+          "iou": 0.9939226273878132,
+          "matched": true,
+          "score_error": 0.003916382789611816
+        },
+        {
+          "iou": 0.9969345873028583,
+          "matched": true,
+          "score_error": 0.009577453136444092
+        },
+        {
+          "iou": 0.9949561209613327,
+          "matched": true,
+          "score_error": 0.014285683631896973
+        }
+      ]
+    },
+    {
+      "frame": 625,
+      "reference_count": 5,
+      "actual_count": 5,
+      "matches": [
+        {
+          "iou": 0.9973709804409382,
+          "matched": true,
+          "score_error": 0.006336688995361328
+        },
+        {
+          "iou": 0.9979885942069175,
+          "matched": true,
+          "score_error": 0.0025395750999450684
+        },
+        {
+          "iou": 0.991636205566336,
+          "matched": true,
+          "score_error": 0.0035425424575805664
+        },
+        {
+          "iou": 0.98436566717882,
+          "matched": true,
+          "score_error": 0.02977806329727173
+        },
+        {
+          "iou": 0.9898712715594231,
+          "matched": true,
+          "score_error": 0.003168821334838867
+        }
+      ]
+    },
+    {
+      "frame": 728,
+      "reference_count": 4,
+      "actual_count": 4,
+      "matches": [
+        {
+          "iou": 0.9954492759112321,
+          "matched": true,
+          "score_error": 0.0020591020584106445
+        },
+        {
+          "iou": 0.9599354181931469,
+          "matched": true,
+          "score_error": 0.0006529092788696289
+        },
+        {
+          "iou": 0.9779947061380978,
+          "matched": true,
+          "score_error": 0.004274547100067139
+        },
+        {
+          "iou": 0.9893884184217944,
+          "matched": true,
+          "score_error": 0.004703164100646973
+        }
+      ]
+    }
+  ]
+}

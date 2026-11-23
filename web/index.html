@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI-Powered ADAS Dashboard</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><a class="brand" href="/">ADAS<span> / VISION LAB</span></a><span id="connection">Connecting to RK3576…</span></header>
+<main><section class="intro"><div><div class="eyebrow">RECOMPUTER RK3576</div><h1>AI-Powered ADAS Dashboard</h1><p>Vehicle detection on the NPU. Road understanding with OpenCV.</p></div><span class="chip">YOLOv8n · FP16</span></section>
+<section class="metrics" aria-label="Processing statistics">
+<article><span>NPU inference</span><strong id="npu">—</strong><small>FPS · synchronous RKNN API</small></article>
+<article><span>End-to-end processing</span><strong id="fps">—</strong><small>FPS · full video pipeline</small></article>
+<article><span>Frames processed</span><strong id="frames">—</strong><small id="duration">No video selected</small></article>
+<article><span>Forward collision alerts</span><strong id="fcw">—</strong><small>Frames with proximity risk</small></article>
+<article><span>Lane departure alerts</span><strong id="ldw">—</strong><small>Frames with lateral drift</small></article></section>
+<div class="workspace"><section class="viewer"><div class="panel-title"><h2>Analysis results</h2><span id="status" class="status">Ready</span></div>
+<div class="canvas"><div id="empty"><svg viewBox="0 0 80 80" width="74" aria-hidden="true"><path d="M24 65 34 15m22 50L46 15M40 60V48m0-10V26" fill="none" stroke="currentColor" stroke-width="3"/></svg><h3>Your road, analyzed.</h3><p>Upload a dashcam video or run the original sample.</p></div><img id="preview" alt="Current frame from real NPU processing" hidden><video id="video" controls playsinline preload="metadata" hidden></video></div>
+<div class="progress"><div id="bar"></div></div><div class="viewer-footer"><span id="filename">No video selected</span><span id="progress-text">Awaiting video</span></div>
+<div class="legend"><span><i class="solid"></i>Solid boundary</span><span><i class="dashed"></i>Dashed boundary</span><span><i class="area"></i>Drivable area</span><span><i class="risk"></i>Collision risk</span></div>
+<div class="downloads" id="downloads" hidden><a id="download" class="button" download>Download analyzed MP4</a><a id="report" download>Performance report</a><a id="trace" download>Frame data</a></div></section>
+<aside><section class="card"><h2>Analyze a video</h2><p>Choose an MP4 dashcam recording.</p><form id="form"><label class="upload" for="file"><span>Choose MP4 file</span><small id="selected">Up to 512 MB</small><input id="file" name="file" type="file" accept="video/mp4,.mp4" required></label><button id="submit" type="submit">Analyze video</button></form><div class="separator"><span>or use the reference</span></div><button id="sample" class="secondary">Run original sample</button><p class="hint">Original repository clip · 720p · 29.2 seconds</p><p id="message" role="status" aria-live="polite"></p></section>
+<section class="card"><h2>Recent analyses</h2><select id="history" aria-label="Select an analysis"><option value="">Select a completed run</option></select><p class="hint">Results remain on this device.</p></section>
+<section class="card details"><h2>How to read the results</h2><p>Colored boundaries identify solid and dashed markings. Green shading highlights the estimated drivable road.</p><p>FCW uses vehicle position and proximity in the current and adjacent lanes. LDW uses distance to a lane boundary.</p><p class="hint">Lane geometry follows the original dashcam setup. Alerts are image-based estimates.</p></section></aside></div>
+<footer>RK3576 NPU + OpenCV <span>Processing speed and video playback speed are measured separately. Audio is omitted.</span></footer></main><script src="/static/app.js"></script></body></html>

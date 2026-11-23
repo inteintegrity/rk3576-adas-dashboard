@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "decoded_frames": 729,
+  "fps": 25.0,
+  "actual_alert_frames": {
+    "fcw": 85,
+    "ldw": 308
+  },
+  "lane_types": [
+    "dashed",
+    "solid"
+  ],
+  "vehicle_classes": [
+    "bus",
+    "car",
+    "truck"
+  ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+.env
+*.log
+*.tar.gz
+*.zip
+outputs/
+models/*.onnx
+models/yolov8n_raw.json
+upstream/notebook/
+release-manifest.json
+tools/build_release.py
+tools/inspect_notebook.py
+.ssh_known_hosts
+.env.*

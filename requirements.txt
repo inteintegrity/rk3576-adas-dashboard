@@ -1,0 +1,8 @@
+# Board inference dependencies. Install RKNN Lite2 2.3.2 from Rockchip separately.
+numpy==1.26.4
+opencv-python==4.11.0.86
+scikit-learn==1.8.0
+imageio-ffmpeg==0.6.0
+fastapi==0.121.3
+uvicorn==0.38.0
+python-multipart==0.0.20

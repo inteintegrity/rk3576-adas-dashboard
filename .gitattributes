@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.pt binary
+*.rknn binary
+*.mp4 binary
+*.jpg binary
+# Keep pinned upstream inputs byte-identical for Git-blob verification.
+upstream/** -text

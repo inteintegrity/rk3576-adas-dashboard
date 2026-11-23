@@ -1,0 +1,16 @@
+{
+  "target": "rk3576",
+  "precision": "fp16",
+  "toolkit2": "2.3.2",
+  "onnx_sha256": "694d46b62bb0e2e31e1870eddf0d00f4c16c956bc56cf4e47277282340513788",
+  "rknn_sha256": "90cf0d84e984ceba333bfdc69a7c563e12b7e10f36f497c9bb9a31d1ef163412",
+  "conversion_timings": {
+    "initialize_s": 0.07758345999991434,
+    "config_s": 8.793699998932425e-05,
+    "load_s": 0.17985796900029527,
+    "build_s": 1.204634484000053,
+    "export_s": 0.11446557500039489,
+    "total_s": 1.5766443860002255
+  },
+  "input": "uint8 NHWC RGB, normalization embedded in RKNN"
+}

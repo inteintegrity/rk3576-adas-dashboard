@@ -1,0 +1,8 @@
+{
+  "target": "rk3576",
+  "precision": "fp16",
+  "toolkit2": "2.3.2",
+  "onnx_sha256": "694d46b62bb0e2e31e1870eddf0d00f4c16c956bc56cf4e47277282340513788",
+  "rknn_sha256": "1659d06128fb1e9add3d94ef4eb4ac3ca43685f45cf432457d1a453c1ac60c11",
+  "input": "uint8 NHWC RGB, normalization embedded in RKNN"
+}
